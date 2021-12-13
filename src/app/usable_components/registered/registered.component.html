@@ -1,0 +1,162 @@
+<div class = "container" style= "max-width: 1000px;">
+
+  <header style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%"> 
+    <h3 style= "color: #738a94">Task ID: {{task.id}}</h3>
+
+    <button class = btn [ngStyle]= "{'background-color': task.prioritylevel == 'P3'? '#3bb795': (task.prioritylevel == 'P2'? '#f17516': '#ff0200')}"> 
+      {{task.prioritylevel}} </button>
+  </header>
+  
+  
+
+  <div style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%">
+    <div style = "font-size: 70px; font-weight: 800px;">
+      {{task.title}}
+    </div>
+
+    <div style = "font-size: 10px;">
+      <p style= "padding: 3px;"> Start Date: {{task.createdAt}}</p>
+      <p style= "padding: 3px;"> Expected End Date: {{task.expectedcompletedate}}</p>
+    </div>
+  </div>
+  
+  
+  <p style = "font-size: 20px; font-weight: 500px;">{{task.description_}}</p>
+
+
+
+  <div class= "resp-area" style= "padding-top: 150px;"> 
+
+    <div style= "align-items: center; display: flex; flex-direction: column;">
+        <p style= "font-size: 20px; font-weight: 400;">Status</p>
+        <p style= "color: #738a94; font-size: 10px; font-weight: 100;">{{task.level}}</p>
+    </div>
+
+    <div style= "align-items: center; display: flex; flex-direction: column;">
+      <p style= "font-size: 20px; font-weight: 400;">Priority</p>
+      <p style= "color: #738a94; font-size: 10px; font-weight: 100;">{{task.prioritylevel}}</p>
+    </div>
+
+    <div style= "align-items: center; display: flex; flex-direction: column;">
+      <p style= "font-size: 20px; font-weight: 400;">Last Update Date</p>
+      <p style= "color: #738a94; font-size: 10px; font-weight: 100;">{{task.updatedAt}}</p>
+    </div>
+
+    <div style= "align-items: center; justify-items: center; display: flex; flex-direction: column;">
+      <p style= "font-size: 20px; font-weight: 400;">SLA</p>
+      <p style= "color: #738a94; font-size: 10px; font-weight: 100;">{{task.withinSLA ? "Within SLA" : "Outside SLA"}}</p>
+    </div>
+  </div>
+
+
+  
+
+
+
+  <div class = "resp-area" style= "padding-top: 50px;">
+    
+    <div style= "
+    background: #31a0df;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    font-family: inherit;
+    border-radius: 2px;
+    padding: 5px;"
+    >
+    Reported by</div>
+
+    <div class="spacer"></div>
+
+    <div style= "
+    background: #31a0df;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    font-family: inherit;
+    border-radius: 2px;
+    padding: 5px;"
+    >
+    Responsible</div>
+    
+
+  </div>
+
+  <div class = "resp-area">
+    
+    <div style= "
+    color: #738a94;
+    font-size: 15px;
+    font-family: inherit;"
+    >
+    {{task.reporter}}</div>
+
+    <div class="spacer"></div>
+
+    <div style= "
+    color: #738a94;
+    font-size: 15px;
+    font-family: inherit;"
+    >
+    {{task.assignee}}</div>
+    
+
+  </div>
+
+
+  
+
+
+
+  <div *ngIf = showComments class= "container-comments" style= "justify-content: space-around; align-items: center; width: 100%;" >
+    <h3 *ngIf = "task.comments.length > 0" style= "color: #738a94; text-decoration: underline;">Comments</h3>
+    <p *ngIf = "task.comments.length == 0">No comments saved for this task yet. You can add a comment below</p>
+    
+    <li *ngFor = "let comment of task.comments">
+      {{comment.text}}
+    </li>
+
+    <div style="display: flex; margin: 30px auto;">
+      <input class="comment-entry" type="text" name = "name" [(ngModel)]="comment.text" placeholder="Add comment." />
+      <button style= "font-size: 10px; color: #fff; background: black; padding: 2px; text-decoration: none; cursor: pointer; border-radius: 10px; display: inline-block;
+      border: none; width: 100px; margin-left: 10px;" 
+      (click) = saveComment()>
+        Add Comment
+      </button>
+    </div>
+  
+  </div>
+  
+
+  
+  
+
+
+  <header style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%; margin-top: 25px;"> 
+    <button class = "btn" (click) = commit() routerLink= {{pathtoGo}} (mouseover) = checkChanges()> 
+      Commit Changes </button>
+
+
+    <button class = btn (click) = toggleComments() >
+      {{showComments ? "Hide Comments" : "Show Comments"}}
+    </button>
+
+    <button class = btn (click) = updateLevel()> 
+      Update Task Status </button>
+  </header>
+
+
+  
+</div>
+
+
+
+
+
+
+<button>
+  <a routerLink="regList">
+    Back to all Tasks
+  </a>
+</button>
+

@@ -1,0 +1,29 @@
+<div class = "container" style= "max-width: 500px;">
+    <h1>
+        Login to Task Manager!
+      </h1>
+      
+      
+      <form class="register-form">
+      
+        <div class="form-control">
+          <label for="email">Username</label>
+          <input class="box" type="text" name="email" [(ngModel)]="user" id="email" placeholder="Enter Admin Username" />
+        </div>
+        <div class="form-control">
+          <label for="phone">Password</label>
+          <input class="box" type="text" name="phone" [(ngModel)]="pass" id="phone" placeholder="Enter password here" />
+        </div>
+      
+        
+      </form>
+      
+      <button (click)="onSubmit()" (mouseover) = checkEntries() class="btn" style="width: 100%" routerLink={{pathtoGo}}>
+        Login 
+      </button>
+
+</div>
+
+
+  
+  

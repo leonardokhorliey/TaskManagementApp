@@ -1,0 +1,551 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Go on a Date",
+      "description_": "This is the last chance you will have to take her out",
+      "reporter": "Ekene",
+      "assignee": "Ebube",
+      "level": "Done",
+      "isCompleted": true,
+      "completedid": 0,
+      "createdAt": "2021-08-25T17:00:53.601Z",
+      "updatedAt": "2021-10-26T08:54:24.483Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-25T17:00:53.601Z",
+      "withinSLA": true,
+      "comments": [],
+      "completionid": 0
+    },
+    {
+      "id": 3,
+      "title": "Go on a Date",
+      "description_": "This is the last chance you will have to take her out",
+      "reporter": "Ekene",
+      "assignee": "Ebube",
+      "level": "Done",
+      "isCompleted": true,
+      "completedid": 1,
+      "createdAt": "2021-08-25T17:00:53.601Z",
+      "updatedAt": "2021-12-11T15:17:31.345Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-25T17:00:53.601Z",
+      "withinSLA": false,
+      "comments": [
+        {
+          "text": "finicky",
+          "createdAt": "2021-10-23T05:41:18.963Z"
+        },
+        {
+          "text": "finicky",
+          "createdAt": "2021-10-23T05:41:18.963Z"
+        },
+        {
+          "text": "Do not go with her if she's not a good girl",
+          "createdAt": "2021-10-23T15:46:35.676Z"
+        },
+        {
+          "text": "head out",
+          "createdAt": "2021-10-23T16:25:57.857Z"
+        },
+        {
+          "text": "head out",
+          "createdAt": "2021-10-23T16:25:57.857Z"
+        },
+        {
+          "text": "Doing what I like",
+          "createdAt": "2021-10-23T16:29:11.133Z"
+        },
+        {
+          "text": "Ebube the man",
+          "createdAt": "2021-10-25T20:13:31.212Z"
+        }
+      ],
+      "completionid": 0
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Tell Pharaoh to let my people go",
+      "reporter": "God",
+      "assignee": "Moses",
+      "level": "Done",
+      "isCompleted": true,
+      "completionid": 0,
+      "createdAt": "2021-10-21T11:51:44.552Z",
+      "updatedAt": "2021-10-26T08:53:57.928Z",
+      "prioritylevel": "P1",
+      "priorityid": 1,
+      "expectedcompletedate": "2021-10-27",
+      "withinSLA": true,
+      "id": 7,
+      "comments": [
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:38:36.410Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:40:02.987Z"
+        },
+        {
+          "text": "Go out to Egypt",
+          "createdAt": "2021-10-23T05:40:02.987Z"
+        },
+        {
+          "text": "",
+          "createdAt": "2021-10-23T05:40:35.238Z"
+        },
+        {
+          "text": "",
+          "createdAt": "2021-10-23T05:40:35.238Z"
+        }
+      ]
+    },
+    {
+      "title": "Don't eat Beans",
+      "description_": "Beans can kill",
+      "reporter": "Ifunanya",
+      "assignee": "Dolapo",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-10-26T07:28:57.704Z",
+      "updatedAt": "2021-10-26T07:28:57.704Z",
+      "prioritylevel": "P3",
+      "priorityid": 3,
+      "expectedcompletedate": "2021-10-29",
+      "withinSLA": true,
+      "comments": [],
+      "id": 11
+    },
+    {
+      "title": "Eat Beans ",
+      "description_": "Beans is a very healthy meal",
+      "reporter": "Ifunanya",
+      "assignee": "",
+      "level": "Done",
+      "isCompleted": true,
+      "completionid": 0,
+      "createdAt": "2021-10-26T07:29:00.894Z",
+      "updatedAt": "2021-10-26T08:50:59.068Z",
+      "prioritylevel": "P3",
+      "priorityid": 3,
+      "expectedcompletedate": "2021-10-27",
+      "withinSLA": true,
+      "comments": [],
+      "id": 12
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Ebube the man",
+      "reporter": "Leonard0",
+      "assignee": "Dolapo",
+      "level": "Done",
+      "isCompleted": true,
+      "completionid": 0,
+      "createdAt": "2021-10-26T07:54:02.850Z",
+      "updatedAt": "2021-10-26T08:57:13.986Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-25",
+      "withinSLA": false,
+      "comments": [],
+      "id": 13
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Ebube the man",
+      "reporter": "Leonard0",
+      "assignee": "Dolapo",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-10-26T07:54:10.439Z",
+      "updatedAt": "2021-10-26T07:54:10.439Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-25",
+      "withinSLA": true,
+      "comments": [],
+      "id": 14
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Ebube the man",
+      "reporter": "Leonard0",
+      "assignee": "Dolapo",
+      "level": "QA",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-10-26T07:54:22.129Z",
+      "updatedAt": "2021-12-11T15:53:48.883Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-14",
+      "withinSLA": false,
+      "comments": [],
+      "id": 15
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Ebube the man",
+      "reporter": "Leonard0",
+      "assignee": "Dolapo",
+      "level": "Done",
+      "isCompleted": true,
+      "completionid": 0,
+      "createdAt": "2021-10-26T07:54:26.597Z",
+      "updatedAt": "2021-10-26T08:55:49.105Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-10-14",
+      "withinSLA": false,
+      "comments": [],
+      "id": 16
+    },
+    {
+      "title": "Complete Portfolio",
+      "description_": "Portfolio creation to sell yourself",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:11:21.830Z",
+      "updatedAt": "2021-12-11T15:11:21.830Z",
+      "prioritylevel": "P1",
+      "priorityid": 1,
+      "expectedcompletedate": "2021-12-14",
+      "withinSLA": true,
+      "comments": [],
+      "id": 17
+    },
+    {
+      "title": "Complete Portfolio",
+      "description_": "Portfolio creation to sell yourself",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "Done",
+      "isCompleted": true,
+      "completionid": 0,
+      "createdAt": "2021-12-11T15:11:23.901Z",
+      "updatedAt": "2021-12-11T15:13:01.638Z",
+      "prioritylevel": "P1",
+      "priorityid": 1,
+      "expectedcompletedate": "2021-12-14",
+      "withinSLA": true,
+      "comments": [],
+      "id": 18
+    },
+    {
+      "title": "Complete Study for Exam",
+      "description_": "Your Angular exam deadline is in 4 months",
+      "reporter": "Ifunanya",
+      "assignee": "Leonard0",
+      "level": "In Progress",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:20:24.166Z",
+      "updatedAt": "2021-12-11T16:21:24.371Z",
+      "prioritylevel": "P1",
+      "priorityid": 1,
+      "expectedcompletedate": "2021-12-10",
+      "withinSLA": false,
+      "comments": [],
+      "id": 19
+    },
+    {
+      "title": "Complete Study for Exam",
+      "description_": "Your Angular exam deadline is in 4 months",
+      "reporter": "Ifunanya",
+      "assignee": "Leonard0",
+      "level": "In Progress",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:20:26.428Z",
+      "updatedAt": "2021-12-11T16:24:40.903Z",
+      "prioritylevel": "P1",
+      "priorityid": 1,
+      "expectedcompletedate": "2021-12-10",
+      "withinSLA": false,
+      "comments": [
+        {
+          "text": "Boy we do not know what you are talking about.",
+          "createdAt": "2021-12-11T16:24:34.756Z"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "title": "Drive Out",
+      "description_": "Complete those Driving Lessons so you get your license",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:25:25.321Z",
+      "updatedAt": "2021-12-11T15:25:25.321Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-12-16",
+      "withinSLA": true,
+      "comments": [],
+      "id": 21
+    },
+    {
+      "title": "Drive Out",
+      "description_": "Complete those Driving Lessons so you get your license",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:25:30.379Z",
+      "updatedAt": "2021-12-11T16:26:34.099Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-12-16",
+      "withinSLA": true,
+      "comments": [],
+      "id": 22
+    },
+    {
+      "title": "Drive Out",
+      "description_": "Complete those Driving Lessons so you get your license",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:25:46.755Z",
+      "updatedAt": "2021-12-11T15:25:46.755Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-12-16",
+      "withinSLA": true,
+      "comments": [],
+      "id": 23
+    },
+    {
+      "title": "Drive Out",
+      "description_": "Complete those Driving Lessons so you get your license",
+      "reporter": "Dolapo",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:25:49.211Z",
+      "updatedAt": "2021-12-11T15:25:49.211Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-12-16",
+      "withinSLA": true,
+      "comments": [],
+      "id": 24
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Tell Pharaoh",
+      "reporter": "Ifunanya",
+      "assignee": "Leonard0",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:34:11.014Z",
+      "updatedAt": "2021-12-11T15:34:11.014Z",
+      "prioritylevel": "P3",
+      "priorityid": 3,
+      "expectedcompletedate": "2021-12-17",
+      "withinSLA": true,
+      "comments": [],
+      "id": 25
+    },
+    {
+      "title": "Go out to Egypt",
+      "description_": "Hang Out",
+      "reporter": "Dolapo",
+      "assignee": "Ifunanya",
+      "level": "New",
+      "isCompleted": false,
+      "completionid": 1,
+      "createdAt": "2021-12-11T15:37:36.564Z",
+      "updatedAt": "2021-12-11T15:37:36.564Z",
+      "prioritylevel": "P2",
+      "priorityid": 2,
+      "expectedcompletedate": "2021-12-14",
+      "withinSLA": true,
+      "comments": [],
+      "id": 26
+    }
+  ],
+  "employees": [
+    "Ebube",
+    "Ngozi",
+    "Ekene"
+  ],
+  "logins": [
+    {
+      "id": 1,
+      "user": "admin",
+      "password": "AdminIsAGuy%%",
+      "createdAt": "2021-08-25T17:00:53.601Z"
+    },
+    {
+      "id": 2,
+      "user": "technology",
+      "password": "Techn0l0gy%%",
+      "createdAt": "2021-08-25T17:00:53.601Z"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "username": "Leonard0",
+      "email": "leonard0@x2x2x.com",
+      "createdAt": "2021-10-25T20:21:21.313Z",
+      "department": "Technology"
+    },
+    {
+      "id": 2,
+      "username": "Ifunanya",
+      "email": "ifynan@x2x2x.com",
+      "createdAt": "2021-10-25T20:21:21.313Z",
+      "department": "Technology"
+    },
+    {
+      "id": 3,
+      "username": "Dolapo",
+      "email": "dolapo@x2x2x.com",
+      "createdAt": "2021-10-25T20:21:21.313Z",
+      "department": "Technology"
+    }
+  ],
+  "selectedTask": {
+    "title": "Drive Out",
+    "description_": "Complete those Driving Lessons so you get your license",
+    "reporter": "Dolapo",
+    "assignee": "Leonard0",
+    "level": "New",
+    "isCompleted": false,
+    "completionid": 1,
+    "createdAt": "2021-12-11T15:25:30.379Z",
+    "updatedAt": "2021-12-11T15:25:30.379Z",
+    "prioritylevel": "P2",
+    "priorityid": 2,
+    "expectedcompletedate": "2021-12-16",
+    "withinSLA": true,
+    "comments": [],
+    "id": 22
+  }
+}

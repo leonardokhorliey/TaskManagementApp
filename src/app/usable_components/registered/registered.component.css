@@ -1,0 +1,57 @@
+buttons {
+  display: inline-block;
+  background: #fff;
+  color: palevioletred;
+  border: none;
+  padding: 2px 2px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  box-shadow: 1px 1px 1px 1px rgb(39, 51, 51);
+}
+
+
+.resp-area {
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+}
+
+
+.container-resp-area {
+  
+  
+  overflow: auto;
+  height: 100%;
+  padding: 1px;
+  border-radius: 7px;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+}
+
+.container-comments {
+  border-radius: 7px;
+  background-color: burlywood;
+  margin: 10px auto;
+  padding: 15px;
+  border: none;
+}
+
+
+.comment-entry {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+  margin: 20px auto;
+  border-radius: 5px;
+  cursor: text;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}

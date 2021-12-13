@@ -1,0 +1,73 @@
+<div class = "container" style= "max-width: 500px;">
+<h2>New Task</h2>
+<p>Fill in a New Task Here</p>
+
+
+
+<form >
+
+  <div class="form-control">
+    <label for="title">Task Title</label>
+    <input class="box newbox" type="text" name = "name" [(ngModel)]="title" id="name" placeholder="Enter the title of the Task" style="font-size: 10px;"/>
+  </div>
+
+  <div class="form-control">
+    <label for="description_">Description</label>
+    <input class="box newbox" type="text" name = "name" [(ngModel)]="description_" id="name" placeholder="Enter short description of task." style="font-size: 10px;"/>
+  </div>
+
+  <div class = "card-container" >
+    
+    
+  
+    <div class="spacing">
+      <div class="form-control">
+        <label for="reporter">Reporter</label>
+
+        <select class="box" name="reporter" id="reporter" [(ngModel)]="reporter" style="font-size: 10px; min-width: 210px; height: 30px;">
+          <option *ngFor= "let member of members" value= {{member.username}}>{{member.username}}</option>
+        </select>
+       </div>
+      <div class="form-control" style="padding-left: 10px">
+        <label for="assignee">Responsible</label>
+
+        <select class="box" name="assignee" id="assignee" [(ngModel)]="assignee" style="font-size: 10px; min-width: 210px; height: 30px;">
+          <option *ngFor= "let member of members" value= {{member.username}}>{{member.username}}</option>
+        </select>
+
+      </div>
+    </div>
+  
+      <div class="spacing">
+        <div class="form-control">
+          <label for="prioritylevel">Priority Level</label>
+          <input class="box" type="text" name = "name" [(ngModel)]="prioritylevel" placeholder="Enter a Priority Level for this Task" style="font-size: 10px; min-width: 200px;"/>
+        </div>
+        <div class="form-control" style="padding-left: 10px">
+          <label for="expectedcompletedate">Due Date</label>
+          <input class="box" type="date" name="name" [(ngModel)]="expectedcompletedate" placeholder="Enter the expected Date of completion for this Task" style="font-size: 10px; min-width: 200px;"/>
+        </div>
+      </div>
+
+  </div>
+  
+
+
+    
+    
+
+    
+
+  
+
+  <button class="btn btn-block"
+  color="white" (click) = "onSubmit()"
+  >
+    Save Task
+  </button>
+    
+    
+</form>
+
+</div>
+

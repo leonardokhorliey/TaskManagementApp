@@ -1,0 +1,56 @@
+<div class = "container-reg" style= "max-width: 1000px; max-height: 700px;">
+  
+  <div style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%;">
+    <h1> All Tasks</h1>
+    <button class="btn" routerLink="/create-task">
+      Create Task
+    </button>
+  </div>
+  
+  <h3 *ngIf = "regs.length == 0"> Your tasks will appear here when you create them. Create a Task using the button above now.</h3>
+  <div *ngFor="let reg of regs" class="reg" style= "width: 100%;">      
+    <div style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%">
+        <div style = "font-size: 30px; font-weight: 200px;">
+                {{reg.title}}
+        </div>
+
+      <button color="blue" (click)="addSelectedTask(reg)" routerLink="/registered">View Details
+           
+      </button>
+
+    </div>
+
+
+  <div style= "justify-content: space-between; display: inline-flex; align-items: center; width: 100%">
+    <div style="font-size: 10px; color: #738a94;">
+      
+      <p>{{reg.description_}}</p>
+      <p>Reported by: {{reg.reporter}}</p>
+      <p>Updated at: {{reg.expectedcompletedate}}</p>
+      <p>Assigned to: {{reg.assignee}}</p>
+      <p>Status: {{reg.level}}</p>
+    
+    </div>
+    <div style= "display: flex; flex-direction: column; align-items: flex-end;">
+      <fa-icon *ngIf = "!reg.withinSLA" [icon]="faExclamationCircle" [ngStyle]="{'color':'red'}"
+             (click)="onDelete(reg)"></fa-icon>
+
+      <button class = btn [ngStyle]= "{'background-color': reg.prioritylevel == 'P3'? '#3bb795': (reg.prioritylevel == 'P2'? '#f17516': '#ff0200')}"> 
+        {{reg.prioritylevel}} </button>
+    </div>
+    
+  
+  </div>
+
+</div>
+
+
+
+
+<script>
+  function disable() {
+    document.getElementById("myCheck").disabled = true;
+    onToggle(regList)
+
+  }
+</script>
