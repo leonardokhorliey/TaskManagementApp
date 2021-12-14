@@ -10,15 +10,17 @@ import { AuthChecker, LOGIN } from 'src/Logins';
 })
 export class LoginComponent implements OnInit {
   passAuthCheck: boolean = false;
-  listofUsers: AuthChecker[] = []
+  listofUsers: string[] = []
+  passwords: string[] = []
+  
 
   constructor(private regService: RegService) { }
   k: LOGIN[] = [];
-  login: LOGIN[] = [];
 
 
   user: string = '';
   pass: string = '';
+  
 
   //declare variable for the url path string 
   pathtoGo: string = '/login';
@@ -28,19 +30,18 @@ export class LoginComponent implements OnInit {
     this.regService
       .getLogins()
       .subscribe((listReturn) => {
-        this.login = listReturn
         
+        for (let i = 0; i < listReturn.length; i++) {
+          
+          console.log(this.listofUsers.push(listReturn[i].user));
+          console.log(this.passwords.push(listReturn[i].password));
+        }
+
         })
 
-      for (let i = 0; i < this.login.length; i++) {
-        let r = {
-          user: this.login[i].user,
-          password: this.login[i].password
-        }
-        console.log(this.listofUsers.push(r));
-      }
+      
 
-      }
+  }
   
 
   
@@ -62,7 +63,7 @@ export class LoginComponent implements OnInit {
 
   checkEntries() {
     console.log(this.listofUsers)
-      if(this.listofUsers.includes({user: this.user, password: this.pass})) {
+      if(this.passwords[this.listofUsers.indexOf(this.user)] == this.pass) {
           this.passAuthCheck = true
           this.pathtoGo = '/regList'
         } 
